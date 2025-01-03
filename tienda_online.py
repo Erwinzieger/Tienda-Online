@@ -1,5 +1,5 @@
 dinero = float(input('Cual es el monto de la compra?: '))
-miembro = input('Eres mienmbro de la tienda?: ')
+miembro = input('Eres mienmbro de la tienda?: ').strip().lower()
 descuento1 = (dinero * 0.9 )
 total = descuento1 - dinero
 if dinero > 1000 and miembro == 'si' :
